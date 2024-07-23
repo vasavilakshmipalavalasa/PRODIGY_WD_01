@@ -1,0 +1,144 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
+header h1 {
+    margin: 0em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1em;
+}
+
+nav ul li a {
+    color:#f4f4f4;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+nav ul li a i {
+    margin-right: 0.5em;
+}
+
+nav ul li a:hover {
+    color: #eed860;
+}
+
+section {
+    padding: 12em 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
+#home {
+    text-align: center;
+    background-color: #fce1f7;
+}
+
+#home img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 1em;
+}
+
+#about , #skills, #projects, #contact {
+    background-color: #fcf2c7;
+    margin-bottom: 2em;
+}
+
+h2 {
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background:#c3f48b;
+    padding: 2em;
+    margin-bottom: 10em;
+    display: inline-block;
+}
+
+#skills ul li i {
+    margin-right:100px;
+}
+
+.project {
+    background: #c1d0d7;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 0.5em;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #949593;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
